@@ -1,9 +1,8 @@
 {
   "name": "tech-blog",
-  "description": "A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well. This site follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session NPM package for authentication.",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well. This site follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session NPM package for authentication.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +11,8 @@
     "url": "git+https://github.com/qkeddy/tech-blog.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Quin Eddy",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/qkeddy/tech-blog/issues"
   },
@@ -23,4 +22,9 @@
     "handlebars": "^4.7.7",
     "sequelize": "^6.19.0"
   },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  }
 }
